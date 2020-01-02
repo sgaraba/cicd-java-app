@@ -17,7 +17,7 @@ public class CicdJavaApp {
     class HelloController {
         @GetMapping
 		ResponseEntity<String> hello(){
-			return ResponseEntity.ok("Hello CIDI Java Application");
+			return ResponseEntity.ok("Hello Test CIDI Java Application");
 		}
     }
 
