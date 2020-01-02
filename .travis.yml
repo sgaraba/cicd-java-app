@@ -10,7 +10,7 @@ services:
 # SonarCloud
 addons:
   sonarcloud:
-    organization: "cicd-java-app"
+    organization: "sgaraba"
     token:
       secure: $SONAR_TOKEN # encrypted value of your token
 
